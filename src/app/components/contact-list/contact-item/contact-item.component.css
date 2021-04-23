@@ -1,0 +1,50 @@
+.about {
+    margin-bottom: 10px;
+    margin-top:2px;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 1px solid gray;
+}
+
+.contacts {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.contacts li {
+    font-size: 12px;
+    height: 20px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Verdana, sans-serif;
+    margin-bottom: 3px;
+}
+
+.job {
+    font-size: 11px;
+    color: gray;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+.mat-icon {
+    font-size:14px;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
